@@ -28,7 +28,6 @@ body {
 }
 
 .time-count {
-	position: relative;
 	background: #fff;
 	box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
 	border-radius: 30px;
