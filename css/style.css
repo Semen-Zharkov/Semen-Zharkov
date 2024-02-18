@@ -28,6 +28,7 @@ body {
 }
 
 .time-count {
+	position: relative;
 	background: #fff;
 	box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
 	border-radius: 30px;
@@ -35,7 +36,16 @@ body {
 	height: 170px;
 	padding: 30px 30px;
 }
-
+.rabbit{
+	position: absolute;
+	top:-40px;
+	left:20px;
+}
+.hedgehog{
+	position: absolute;
+	top: -40px;
+	right: 25px;
+}
 .time-count__title {
 	margin: 0;
 	margin-bottom: 35px;
