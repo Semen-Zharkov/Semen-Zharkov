@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+  <html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Медиа Арми</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+      <div class="time-count animated bounceInLeft">
+          <h2 class="time-count__title">До нашей встречи осталось</h2>
+          <div class="time-count__content">
+              <div class="time-count__item time-count__days">
+                  <div class="time-count__val">00</div>
+                  <span class="time-count__text">дней</span>
+              </div>
+              <div class="time-count__separator">:</div>
+              <div class="time-count__item time-count__hours">
+                  <div class="time-count__val">00</div>
+                  <span class="time-count__text">часов</span>
+              </div>
+              <div class="time-count__separator">:</div>
+              <div class="time-count__item time-count__minutes">
+                  <div class="time-count__val">00</div>
+                  <span class="time-count__text">минут</span>
+              </div>
+              <div class="time-count__separator">:</div>
+              <div class="time-count__item time-count__seconds">
+                  <div class="time-count__val">00</div>
+                  <span class="time-count__text">секунд</span>
+              </div>
+          </div>
+      </div>
+      <img src="img/pyte.svg" alt="путь" class="pyt">
+      <a class='btn-loc wow zoomInUp data-wow-offset="30"' href="https://yandex.ru/maps/54/yekaterinburg/?ll=60.631948%2C56.842566&mode=whatshere&whatshere%5Bpoint%5D=60.632243%2C56.842273&whatshere%5Bzoom%5D=18.98&z=18.98" target="_blank">
+        <div class="map" >
+            <span>
+                Место встречи
+            </span>
+        </div>
+      </a>
+      <div class="media-mob">Зайди с телефона😄</div>
+      <script src="js/time-count.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/wow.js"></script>
+      <script>
+        new WOW().init();
+      </script>
+  </body>
+  </html>
