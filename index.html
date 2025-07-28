@@ -2,31 +2,65 @@
 <html>
     <head>
         <meta charset="utf-8" />
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="css/media.css" rel="stylesheet">
         <title>Моменты</title>
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <div class="promo-text">
-            
+            <p>
+                Даже не верится, честно, говоря, что уже пролетел этот год, самый быстрый и самый счастливый в моей жизни
+            </p>
+        </div>
+        <img src="img/pyte.svg" alt="путь" class="pyt">
+        <div class="time-count animated bounceInLeft">
+            <img src="img/rabbit-svgrepo-com.svg" alt="Кролик" class="rabbit" width="80" height="80">
+            <img src="img/hedgehog-svgrepo-com.svg" alt="Ежик" class="hedgehog" width="80" height="80">
+            <h2 class="time-count__title">До года с нашей встречи осталось</h2>
+            <div class="time-count__content">
+                <div class="time-count__item time-count__days">
+                    <div class="time-count__val">00</div>
+                    <span class="time-count__text">дней</span>
+                </div>
+                <div class="time-count__separator">:</div>
+                <div class="time-count__item time-count__hours">
+                    <div class="time-count__val">00</div>
+                    <span class="time-count__text">часов</span>
+                </div>
+                <div class="time-count__separator">:</div>
+                <div class="time-count__item time-count__minutes">
+                    <div class="time-count__val">00</div>
+                    <span class="time-count__text">минут</span>
+                </div>
+                <div class="time-count__separator">:</div>
+                <div class="time-count__item time-count__seconds">
+                    <div class="time-count__val">00</div>
+                    <span class="time-count__text">секунд</span>
+                </div>
+            </div>
         </div>
         <div class="mobile-screencast">
-        <div class="screen-container">
-            <div class="phone-frame">
-            <div class="screen">
-                <img src="./PXL_20240802_160639535.jpg" class="active" alt="Фото 1">
-                <img src="./PXL_20240802_161628363.jpg" alt="Фото 2">
-                <img src="./PXL_20240802_162213020.jpg" alt="Фото 3">
+            <div class="screen-container">
+                <div class="phone-frame">
+                    <div class="screen">
+                        <img src="./PXL_20240802_160639535.jpg" class="active" alt="Фото 1">
+                        <img src="./PXL_20240802_161628363.jpg" alt="Фото 2">
+                        <img src="./PXL_20240802_162213020.jpg" alt="Фото 3">
+                    </div>
+                </div>
             </div>
-            </div>
-        </div>
-        <div class="dots">
-            <span class="dot active" data-index="0"></span>
-            <span class="dot" data-index="1"></span>
-            <span class="dot" data-index="2"></span>
-        </div>
         </div>
         <iframe class="styled-video" src="https://rutube.ru/play/embed/a458dc3e7a3a26e991e08b2a92e60e27/?p=tOzUj8PzQZ6O8QGaqqHmQg" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>   
     </body>
     <script src="./sctipt.js"></script>
+    <script src="js/time-count.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </html>

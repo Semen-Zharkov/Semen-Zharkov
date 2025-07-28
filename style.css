@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
 body {
-    background-color: #f29e92;
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    background-color: #72a2ac;
+}
+
+.promo-text {
+    margin: auto;
+    width: 85%;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: justify;
 }
 
 .styled-video {
