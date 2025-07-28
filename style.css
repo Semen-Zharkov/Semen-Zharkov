@@ -1,0 +1,25 @@
+body {
+    background-color: #d3a88e;
+}
+
+.styled-video {
+    display: flex;
+    margin: auto;
+    width: auto;
+    border: none;
+    outline: none;
+    background: #000;
+    /* Фон на случай, если видео не заполняет весь контейнер */
+
+    /* Дополнительные стили по желанию */
+    border-radius: 8px;
+    /* Закругление углов */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    /* Тень для объема */
+}
+
+.styled-video:hover {
+    transform: scale(1.02);
+    /* Увеличение при наведении */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
