@@ -1,11 +1,12 @@
 body {
-    background-color: #d3a88e;
+    background-color: #f29e92;
 }
 
 .styled-video {
     display: flex;
     margin: auto;
-    width: auto;
+    width: 80%;
+    min-height: 564px;
     border: none;
     outline: none;
     background: #000;
