@@ -3,9 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const dots = document.querySelectorAll('.dot');
   let currentIndex = 0;
   
-  // Автоперелистывание каждые 3 секунды
-  setInterval(nextSlide, 3000);
-  
   // Клик по точкам
   dots.forEach(dot => {
     dot.addEventListener('click', function() {
