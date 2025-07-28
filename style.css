@@ -14,6 +14,20 @@ body {
     text-align: justify;
 }
 
+img {
+    display: flex;
+    margin: auto;
+}
+
+img.pyt {
+    display: flex;
+    margin: 0 auto;
+}
+
+p.echo-start {
+    text-align: center;
+}
+
 .styled-video {
     display: flex;
     margin: auto;
