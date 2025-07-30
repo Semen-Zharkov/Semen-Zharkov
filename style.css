@@ -3,7 +3,8 @@
 body {
     font-family: "Playwrite HU", cursive;
     font-optical-sizing: auto;
-    background: linear-gradient(to right, #72a2ac, #487480);
+    background: linear-gradient(95deg, #881cba, #765dee, #0593c2, #0069cc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .promo-text {
@@ -25,6 +26,12 @@ img.pyt {
 }
 
 p.echo-start {
+    text-align: center;
+}
+
+.block-text {
+    width: 80%;
+    margin: auto;
     text-align: center;
 }
 
