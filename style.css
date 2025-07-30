@@ -3,7 +3,7 @@
 body {
     font-family: "Playwrite HU", cursive;
     font-optical-sizing: auto;
-    background-color: #72a2ac;
+    background: linear-gradient(to right, #72a2ac, #487480);
 }
 
 .promo-text {
@@ -31,6 +31,7 @@ p.echo-start {
 .styled-video {
     display: flex;
     margin: auto;
+    margin-top: 60px;
     width: 80%;
     min-height: 564px;
     border: none;
@@ -129,6 +130,23 @@ p.echo-start {
     }
 
     .screen {
-        height: 400px;
+        height: 600px;
     }
+}
+
+.fullscreen-video {
+    display: flex;
+    /* Убираем все стандартные элементы */
+    border: none;
+    outline: none;
+    width: 60%;
+    background: #000;
+    margin: auto;
+    /* Фон на случай, если видео не заполняет весь контейнер */
+    margin-top: 60px;
+    /* Дополнительные стили по желанию */
+    border-radius: 50%;
+    /* Закругление углов */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    /* Тень для объема */
 }
